@@ -1,0 +1,20 @@
+{
+  "name": "algorithms-illuminated-implementations",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "My own implementation for the algorithm illuminated series' exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "author": "Fran Cortés",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^25.3.4",
+    "jest": "^27.4.0"
+  }
+}

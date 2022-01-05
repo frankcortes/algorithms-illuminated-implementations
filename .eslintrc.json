@@ -1,0 +1,32 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true,
+        "jest/globals": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "plugins": [
+        "jest"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 13
+    },
+    "rules": {
+        "no-console": "off",
+        "no-param-reassign": "off",
+        "no-plusplus": [ "error", {
+            "allowForLoopAfterthoughts": true
+        }]
+    },
+    "overrides": [
+        {
+          "files": ["*.test.js"],
+          "rules": {
+            "max-len": "off"
+          }
+        }
+    ]
+}
